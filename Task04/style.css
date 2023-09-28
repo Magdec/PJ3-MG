@@ -1,0 +1,176 @@
+body{
+    margin: 10px;
+}
+
+header{
+    background-color: blue;
+    height: 100px;
+    width: screen;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.A {
+    background-color: green;
+    height: 200px;
+    width: screen;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.a1{
+    background-color: yellow;
+    height: 200px;
+    width: screen;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.a2{
+    background-color: yellow;
+    height: 200px;
+    width: screen;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.a3{
+    background-color: purple;
+    height: 200px;
+    width: screen;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.a4{
+    background-color: purple;
+    height: 200px;
+    width: screen;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.a5{
+    background-color: pink;
+    height: 200px;
+    width: screen;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.a6{
+    background-color: pink;
+    height: 200px;
+    width: screen;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+footer{
+    background-color: red;
+    height: 100px;
+    width: screen;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width:768px) and (max-width:1024px)  {
+    .change{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: auto;
+
+    }
+    .a1{
+        margin:10px;
+        min-width: 40%;
+        flex-grow:1;
+    }
+    .a2{
+        margin:10px;
+        min-width: 40%;
+        flex-grow:1;
+
+    }
+    .a3{        
+        margin:10px;
+        min-width: 40%;
+        flex-grow:1;
+
+    }
+    .a4{
+        min-width: 40%;
+        margin:10px;
+        flex-grow:1;
+    }
+    header{
+        width: 50%;
+    }
+    .a5{
+        display: none;
+    }
+    .a6{
+        display: none;
+    }      
+}
+
+@media screen and (max-width:767px) {
+    .a3{
+        display: none;
+    }
+    .a4{
+        display: none;
+    }   
+    .a5{
+        display: none;
+    }
+    .a6{
+        display: none;
+    }      
+}
+
+@media screen and (min-width:1024px) {
+    .change{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: auto;
+    }
+    .a1{
+        margin:10px;
+        min-width: 30%;
+        flex-grow:1;
+    }
+    .a2{
+        margin:10px;
+        min-width: 30%;
+        flex-grow:1;
+
+    }
+    .a3{        
+        margin:10px;
+        min-width: 30%;
+        flex-grow:1;
+
+    }
+    .a4{
+        min-width: 30%;
+        margin:10px;
+        flex-grow:1;
+    }
+    .a5{
+        min-width: 30%;
+        margin:10px;
+        flex-grow:1;
+    }
+    .a6{
+        min-width: 30%;
+        margin:10px;
+        flex-grow:1;
+    }
+    header{
+        width: 33%;
+    }
+}
